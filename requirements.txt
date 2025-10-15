@@ -1,0 +1,25 @@
+# Web framework for Streamlit app
+streamlit>=1.28.0
+
+# PDF generation dependencies
+reportlab>=3.6.0
+
+# QR code generation
+qrcode>=7.4.2
+
+# Image processing (required by qrcode and cairosvg)
+pillow>=9.5.0
+
+# HTTP requests for API calls
+requests>=2.28.0
+
+# SVG to image conversion (for get_qr.py JPG export)
+cairosvg>=2.7.0
+
+# Standard library modules (no installation needed):
+# argparse, sys, json, re, io, tempfile, os, xml.etree.ElementTree
+# - re (built-in)
+# - io (built-in)
+# - tempfile (built-in)
+# - os (built-in)
+# - xml.etree.ElementTree (built-in)
